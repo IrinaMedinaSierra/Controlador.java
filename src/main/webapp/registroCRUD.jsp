@@ -11,19 +11,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Sistema de Alta Online - Registro</title>
 </head>
 
 <body>
 <div class="container">
     <div class="row">
+        <div class="col-lg-12 text-end">
+            <p class="fs-6">  ${nombre}</p>
+            <p> <a href="" title="Cambiar Clave"><span class="material-icons iconos">admin_panel_settings</span></a>
+                <a href="javascript:window.print()" title="Imprimir"><span class="material-icons  iconos">print</span></a>
+                <a href="Logout" title="Salir"><span class="material-icons  iconos">logout</span></a></p>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-12 text-white text-center negro" style="padding: 50px">
             <h1>Sistema de Alta Online</h1>
         </div>
     </div>
-    <div class="row bg-white py-4 text-center">
-            <p>Por favor, complete sus credenciales para Registrarse.</p>
 
+    <div class="row bg-white py-4 text-center">
     <div class="row  justify-content-center text-danger mensaje fs-5  ">
         ${mensaje}
     </div>
