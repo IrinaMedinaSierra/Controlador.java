@@ -11,8 +11,16 @@ public class Usuario {
     public String usuario;
     public String password;
     public String email;
+    public int idEstado;
+    public  int idDepartamento;
 
-public Usuario(){
+    public  String estado;
+    public  String departamento;
+
+
+
+
+    public Usuario(){
 
 }
 
@@ -24,12 +32,14 @@ public Usuario(){
      * @param password contraseña utilizada para hacer login
      * @param email  del usuario
      *             */
-    public Usuario(int id, String nombre, String usuario, String password, String email) {
+    public Usuario(int id, String nombre, String usuario, String password, String email, int idEstado, int idDepartamento) {
         this.id = id;
         this.nombre = nombre;
         this.usuario = usuario;
         this.password = password;
         this.email = email;
+        this.idEstado = idEstado;
+        this.idDepartamento = idDepartamento;
     }
 
     /**
@@ -39,12 +49,15 @@ public Usuario(){
      * @param password contraseña utilizada para hacer login
      * @param email  del usuario
      *             */
-    public Usuario( String nombre, String usuario, String password, String email) {
 
+
+    public Usuario(String nombre, String usuario, String password, String email, int idEstado, int idDepartamento) {
         this.nombre = nombre;
         this.usuario = usuario;
         this.password = password;
         this.email = email;
+        this.idEstado = idEstado;
+        this.idDepartamento = idDepartamento;
     }
     //Cierre del constructor
 
@@ -91,4 +104,48 @@ public Usuario(){
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public int getIdEstado() {
+        return idEstado;
+    }
+
+    public void setIdEstado(int idEstado) {
+        this.idEstado = idEstado;
+    }
+
+    public int getIdDepartamento() {
+        return idDepartamento;
+    }
+
+    public void setIdDepartamento(int idDepartamento) {
+        this.idDepartamento = idDepartamento;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+
+    public Usuario(int id, String nombre, String usuario, String password, String email, String estado, String departamento) {
+        this.id = id;
+        this.nombre = nombre;
+        this.usuario = usuario;
+        this.password = password;
+        this.email = email;
+        this.estado = estado;
+        this.departamento = departamento;
+    }
 }
+
+

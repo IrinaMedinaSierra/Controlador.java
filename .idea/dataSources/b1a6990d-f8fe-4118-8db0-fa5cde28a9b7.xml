@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="BancaOnline@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.38">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.48">
     <root id="1">
       <DefaultCasing>mixed/mixed</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1070,131 +1070,196 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="281" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="282" parent="1" name="mysql.infoschema">
+    <schema id="282" parent="1" name="demo">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="283" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="283" parent="1" name="mysql.session">
+    <user id="284" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="284" parent="1" name="mysql.sys">
+    <user id="285" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="285" parent="1" name="root">
+    <user id="286" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="286" parent="1" name="uned">
+    <user id="287" parent="1" name="uned">
       <Host>localhost</Host>
     </user>
-    <table id="287" parent="274" name="clientes">
+    <table id="288" parent="274" name="clientes">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_spanish_ci</CollationName>
     </table>
-    <table id="288" parent="274" name="usuarios">
+    <table id="289" parent="274" name="departamento">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_spanish_ci</CollationName>
     </table>
-    <column id="289" parent="287" name="idclientes">
-      <AutoIncrement>2</AutoIncrement>
-      <DataType>int|0s</DataType>
+    <table id="290" parent="274" name="estado">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_spanish_ci</CollationName>
+    </table>
+    <table id="291" parent="274" name="usuarios">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_spanish_ci</CollationName>
+    </table>
+    <column id="292" parent="288" name="idclientes">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="290" parent="287" name="nombre">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="293" parent="288" name="nombre">
+      <DasType>varchar(45)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="291" parent="287" name="apellidos">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="294" parent="288" name="apellidos">
+      <DasType>varchar(45)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="292" parent="287" name="edad">
-      <DataType>tinyint|0s</DataType>
+    <column id="295" parent="288" name="edad">
+      <DasType>tinyint|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="293" parent="287" name="direccion">
-      <DataType>varchar(60)|0s</DataType>
+    <column id="296" parent="288" name="direccion">
+      <DasType>varchar(60)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="294" parent="287" name="dni">
-      <DataType>varchar(9)|0s</DataType>
+    <column id="297" parent="288" name="dni">
+      <DasType>varchar(9)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="295" parent="287" name="email">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="298" parent="288" name="email">
+      <DasType>varchar(45)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="296" parent="287" name="telefono">
-      <DataType>varchar(45)|0s</DataType>
+    <column id="299" parent="288" name="telefono">
+      <DasType>varchar(45)|0s</DasType>
       <Position>8</Position>
     </column>
-    <index id="297" parent="287" name="idclientes_UNIQUE">
+    <index id="300" parent="288" name="idclientes_UNIQUE">
       <ColNames>idclientes</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="298" parent="287" name="PRIMARY">
-      <ColNames>idclientes</ColNames>
+    <key id="301" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>idclientes</UnderlyingIndexColNames>
     </key>
-    <key id="299" parent="287" name="idclientes_UNIQUE">
-      <ColNames>idclientes</ColNames>
+    <key id="302" parent="288" name="idclientes_UNIQUE">
       <UnderlyingIndexName>idclientes_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="300" parent="288" name="idusuarios">
-      <AutoIncrement>10</AutoIncrement>
-      <DataType>int|0s</DataType>
+    <column id="303" parent="289" name="idDepartamento">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="301" parent="288" name="nombres">
-      <DataType>varchar(50)|0s</DataType>
+    <column id="304" parent="289" name="departamento">
+      <DasType>varchar(30)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="302" parent="288" name="email">
-      <DataType>varchar(100)|0s</DataType>
+    <index id="305" parent="289" name="departamento_idDepartamento_uindex">
+      <ColNames>idDepartamento</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="306" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexColNames>idDepartamento</UnderlyingIndexColNames>
+    </key>
+    <key id="307" parent="289" name="departamento_idDepartamento_uindex">
+      <UnderlyingIndexName>departamento_idDepartamento_uindex</UnderlyingIndexName>
+    </key>
+    <column id="308" parent="290" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="309" parent="290" name="estado">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <index id="310" parent="290" name="estado_id_uindex">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="311" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexColNames>id</UnderlyingIndexColNames>
+    </key>
+    <key id="312" parent="290" name="estado_id_uindex">
+      <UnderlyingIndexName>estado_id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="313" parent="291" name="idusuarios">
+      <AutoIncrement>34</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="314" parent="291" name="nombres">
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="315" parent="291" name="email">
+      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="303" parent="288" name="usuario">
-      <DataType>varchar(15)|0s</DataType>
+    <column id="316" parent="291" name="usuario">
+      <DasType>varchar(15)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="304" parent="288" name="password">
-      <DataType>char(60)|0s</DataType>
+    <column id="317" parent="291" name="password">
+      <DasType>char(60)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="305" parent="288" name="email_UNIQUE">
+    <column id="318" parent="291" name="idEstado">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="319" parent="291" name="idDepartamento">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <index id="320" parent="291" name="email_UNIQUE">
       <ColNames>email</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="306" parent="288" name="usuario_UNIQUE">
+    <index id="321" parent="291" name="usuario_UNIQUE">
       <ColNames>usuario</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="307" parent="288" name="PRIMARY">
-      <ColNames>idusuarios</ColNames>
+    <key id="322" parent="291" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>idusuarios</UnderlyingIndexColNames>
     </key>
-    <key id="308" parent="288" name="email_UNIQUE">
-      <ColNames>email</ColNames>
+    <key id="323" parent="291" name="email_UNIQUE">
       <UnderlyingIndexName>email_UNIQUE</UnderlyingIndexName>
     </key>
-    <key id="309" parent="288" name="usuario_UNIQUE">
-      <ColNames>usuario</ColNames>
+    <key id="324" parent="291" name="usuario_UNIQUE">
       <UnderlyingIndexName>usuario_UNIQUE</UnderlyingIndexName>
     </key>
   </database-model>

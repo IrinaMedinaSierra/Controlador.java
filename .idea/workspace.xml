@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="RegistroDeUsuariosdemo:war" />
       <artifact name="RegistroDeUsuariosdemo:war exploded" />
     </artifacts-to-build>
   </component>
@@ -9,75 +10,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c04cb3f-1760-46e0-9acb-78e199357921" name="Changes" comment="Version 1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mvc_javax_mvc_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RegistroDeUsuariosdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registroCRUD.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/LibreriaException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/Conexion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/LibreriaException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/comprobar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/lib/javax.mvc-api-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/crudClientes.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/img/banca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/img/favicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/js/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/registro.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/vista/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/Conexion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/LibreriaException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="8c04cb3f-1760-46e0-9acb-78e199357921" name="Changes" comment="Version 1.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Editar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Eliminar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Departamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/DepartamentoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/EstadoDeLaCuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/EstadoDeLaCuentaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/MiFiltro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Paginacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/restringido/prueba.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RegistroDeUsuariosdemo_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RegistroDeUsuariosdemo_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b1a6990d-f8fe-4118-8db0-fa5cde28a9b7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mvc_javax_mvc_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistroDeUsuariosdemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Logout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Registrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/controlador/Registrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Conexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Conexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Estado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uned/master/java/registrodeusuarios/modelo/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/crudClientes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/crudClientes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/crudClientes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/restringido/crudClientes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/registro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registroCRUD.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registroCRUD.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/crudClientes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/registro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/RegistroDeUsuariosdemo-1.0-SNAPSHOT/registro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Controlador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/controlador/Registrador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/es/uned/master/java/registrodeusuarios/modelo/Usuario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,12 +88,17 @@
         <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -121,28 +117,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "last_opened_file_path": "/Users/irina/Desktop/RegistroLogin/RegistroDeUsuariosdemo/src/main/webapp",
-    "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5448276",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/irina/Desktop/RegistroDeUsuariosdemo&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5448276&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.VCS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -154,16 +155,29 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/vista" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.63">
+  <component name="RunManager">
     <configuration name="index.jsp" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/RegistroDeUsuariosdemo_war_exploded/index.jsp">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="RegistroDeUsuariosdemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="RegistroDeUsuariosdemo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 9.0.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.63" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="RegistroDeUsuariosdemo:war exploded">
+        <artifact name="RegistroDeUsuariosdemo:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/RegistroDeUsuariosdemo_war_exploded" />
+            <option name="CONTEXT_PATH" value="/RegistroDeUsuariosdemo_war" />
           </settings>
         </artifact>
       </deployment>
@@ -242,6 +256,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="RegistroDeUsuariosdemo:war exploded" />
+          <artifact name="RegistroDeUsuariosdemo:war" />
         </option>
       </method>
     </configuration>
@@ -284,16 +299,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.index.jsp" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.63" />
-      <item itemvalue="Tomcat Server.index.jsp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.index.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -315,7 +320,14 @@
       <workItem from="1656171835118" duration="21611000" />
       <workItem from="1656368318139" duration="19948000" />
       <workItem from="1656444729230" duration="6191000" />
-      <workItem from="1656480423299" duration="5888000" />
+      <workItem from="1656480423299" duration="8031000" />
+      <workItem from="1657043436660" duration="4221000" />
+      <workItem from="1657047778183" duration="27469000" />
+      <workItem from="1657557410840" duration="16328000" />
+      <workItem from="1657638162360" duration="9626000" />
+      <workItem from="1658340756791" duration="6031000" />
+      <workItem from="1675860148378" duration="64000" />
+      <workItem from="1686110094494" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0">
       <created>1655753436407</created>
@@ -359,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655757367056</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Version 1.1">
+      <created>1656568230189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656568230189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +409,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
+    <MESSAGE value="Version 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1" />
   </component>
 </project>

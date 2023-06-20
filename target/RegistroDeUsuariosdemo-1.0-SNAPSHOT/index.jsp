@@ -1,5 +1,6 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page contentType="text/html;charset=UTF-8"  pageEncoding="UTF-8" %>
 
-<%@ page contentType="text/html;charset=UTF-8"  %>
 <%--
   Created by IntelliJ IDEA.
   User: Irina Medina Sierra
@@ -13,10 +14,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Sistema de Alta Online- Login</title>
+    <title>Sistema de Alta Online - Registro</title>
 
 </head>
 <body>
+
 <div class="container">
     <div class="row">
         <div class="col-12 text-white text-center negro" style="padding: 50px">
@@ -48,11 +50,12 @@
             </div>
         </div>
     </form>
-    <form method="post" action="Servlet">
+    <form method="post" action="Registrador">
     <div class="row my-4 mx-5">
         <div class="col text-center">
-            <p>Si no esta registrado, puede hacerlo pulsando clic
-            <a href="registro.jsp" class="btn boton my-4">aqui</a></p>
+            <p>Si no esta registrado, puede hacerlo pulsando clic en
+                          <input type="submit" name="registrar" value="Registrar" class="btn boton my4" >
+           <%-- <a href="registro.jsp" class="btn boton my-4">aqui</a></p>--%>
         </div>
     </div>
     </form>

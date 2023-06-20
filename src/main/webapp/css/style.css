@@ -10,7 +10,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 .header{
-    height:15%;
+    height: 15%;
+    position: relative;
+
+    vertical-align: center;
+
 }
 body {
     background-color: #F2F2F2;
@@ -52,3 +56,23 @@ input[type="email"]::placeholder{
 .mensaje{
     height: 50px;
 }
+.nombre{
+    top:5%;
+    right: 1%;
+    position: absolute;
+}
+.
+.iconosH{
+    position: absolute;
+}
+.printer{
+    right: 15%;
+}
+.exit{
+    right: 10%;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
